@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body onload="carregarAtualizar();">
+
+<!--########### Inicio da barra de navegação############-->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+
+<img src="https://img.freepik.com/vetores-gratis/retro-melhor-ilustracao-em-vetor-emblema-jogador-controle-de-jogo-de-mao-monocromatica_74855-10834.jpg?size=338&ext=jpg"
+width="30" height="30" alt="Logo do Best Gamer" >
+Best Gamer
+</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <img src="https://logospng.org/download/ps5-playstation-5/logo-ps5-1024.png" width="30" height="30" alt="logo ps5" srcset="">
+                <a class="nav-link " href="http://127.0.0.1:5500/frontend/js/index.html">PS5</a>
+              </li>
+              <li class="nav-item">
+                <img src="https://w7.pngwing.com/pngs/335/872/png-transparent-playstation-4-playstation-3-sony-logo-ps4-angle-text-rectangle.png" alt="logo ps4" width="30" height="30" srcset="">
+                <a class="nav-link" href="http://127.0.0.1:5500/frontend/js/cadastro.html">PS4</a>
+                <li class="nav-item">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Xbox_Series_X.png" alt="xbox series s logo" width="30" height="30" srcset="">
+                  <a class="nav-link" href="atualizar.html">Xbox Series S</a>
+                </li>
+                <li class="nav-item">
+                  <img src="https://logospng.org/download/xbox-one/logo-xbox-one-1024.png" alt="" width="30" height="30" srcset="">
+                  <a class="nav-link" href="#">Xbox One</a>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+      </nav>
+    
+<!--################# Fim da barra de navegação#####################-->
+
+
+<!--######################Inicio da área de produtos#####################-->
+
+<div class="container-fluid">
+
+<h2>Lista de Jogos</h2>
+<hr>
+<style>
+  body{
+    background-color: gray;
+  }
+</style>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.tcdn.com.br/img/img_prod/906426/1642103128_control2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.tcdn.com.br/img/img_prod/906426/1640593164_3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.tcdn.com.br/img/img_prod/906426/1640593164_1.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="https://d1kvbg99uxpcu.cloudfront.net/Custom/Content/Products/10/82/1082405_game-ps5-demon-s-souls_z1_637491721902210241.jpg"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Demon Souls</h5>
+          <p class="card-text">Jogo PS5 Demon's Souls.</p>
+          <h2>279,90</h2>
+          
+          <p class="card-text">Com 5% de desconto no Boleto/PIX ou em até 8x de R$ 71,25 Sem juros</p>
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Comprar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="card-title">Demon Souls</h5>
+        <p class="card-text">Jogo PS5 Demon's Souls.</p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://images.tcdn.com.br/img/img_prod/906426/demons_souls_ps5_12960_1_d1115492ca182f5e309ceafffe87f4e2.jpg" width="390px" height="390px" alt="" srcset="">
+      </div>
+      <h2>279,90</h2>
+      
+      <p class="card-text">Com 5% de desconto no Boleto/PIX ou em até 8x de R$ 71,25 Sem juros</p>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
+          <a href="#" class="btn btn-primary">Atualizar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://d3ddx6b2p2pevg.cloudfront.net/Custom/Content/Products/10/91/1091185_jogo-ps5-ratchet-clank-siri_z1_637666997917730221.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ratchet e Clank</h5>
+          <p class="card-text"> Ratchet & Clank: Em Uma Outra Dimensão PS5 - Áudio Português .</p>
+          <h2>249,90</h2>
+          <p class="card-text">Com 5% de descono no Boleto/PIX ou em até 8x de R$ 41,25 Sem juros</p>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Comprar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Ratchet e Clank</h5>
+        <p class="card-text"> Ratchet & Clank: Em Uma Outra Dimensão PS5 - Áudio Português .</p>
+         
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://d3ddx6b2p2pevg.cloudfront.net/Custom/Content/Products/10/91/1091185_jogo-ps5-ratchet-clank-siri_z1_637666997917730221.jpg" width="390px" height="390px" alt="Ratchet e Clank" srcset="">
+      </div>
+      <h2>249,90</h2>
+      <p class="card-text">Com 5% de descono no Boleto/PIX ou em até 8x de R$ 41,25 Sem juros</p>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+          <a href="#" class="btn btn-primary">Atualizar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.awsli.com.br/600x450/1540/1540921/produto/95996008/37fa3e4e7e.jpg" class="card-img-top"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Resident Evil 8</h5>
+          <p class="card-text">Game - Resident Evil Village BR- PS5.</p>
+          <h2>259,90</h2>
+          <p class="card-text">Com 5% de desconto no Boleto/PIX ou em até 8x de R$ 51,25 Sem juros</p>
+          <!-- Button trigger offcanvas -->
+          <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Comprar
+          </a>
+
+<!-- OffCanvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Resident Evil 8</h5>
+    <p class="card-text">Game - Resident Evil Village BR- PS5.</p>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+<img src="https://cdn.awsli.com.br/600x450/1540/1540921/produto/95996008/37fa3e4e7e.jpg" alt="" srcset="">
+    </div>
+    <div class="dropdown mt-3">
+      <h2>259,90</h2>
+          <p class="card-text">Com 5% de desconto no Boleto/PIX ou em até 8x de R$ 51,25 Sem juros</p>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Comprar
+      </button>
+    </div>
+  </div>
+</div>
+          <a href="#" class="btn btn-primary">Atualizar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/81MlYALJg5L._AC_SX466_.jpg"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spider-man Milles Morales</h5>
+          <p class="card-text">Game Marvel's Spider-Man: Miles Morales.</p>
+       <h2>139,90</h2>
+       <p class="card-text">Com 5% de desconto no Boleto/PIX ou em ate 8x de 17,25 Sem juros</p>
+
+          <!-- Button trigger offcanvas-->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Comprar</button>
+       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+<!--OffCanvas -->
+         <div class="offcanvas-header">
+           <h5 id="offcanvasRightLabel">Spider-man Milles Morales</h5>
+           <p class="card-text">Game Marvel's Spider-Man: Miles Morales.</p>
+           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+           <img src="https://m.media-amazon.com/images/I/81MlYALJg5L._AC_SX466_.jpg" width="390px" height="390px"  alt="Spider-Man" srcset="">
+           <h2>139,90</h2>
+         <p class="card-text">Com 5% de desconto no Boleto/PIX ou em ate 8x de 17,25 Sem juros </p>
+         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Comprar
+        </button>
+         </div>
+       </div>
+          <a href="#" class="btn btn-primary">Atualizar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+ 
+<section class="footer">
+
+<div class="box-container">
+  <div class="box">
+    <h3>ATENDIMENTO</h3>
+    <ul class="list-group list-group-horizontal">
+      <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/%C3%8Dcone-Telefone-PNG.png" width="40px" height="40px" alt="Telefone">
+      <a href="#" class="link-light">(11) 3465-9129</a>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+<img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-4.png" alt="Whatsapp" width="40px" height="40px" >
+      <a href="#" class="link-light">(16) 94733-9884</a>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+      <img src="https://www.guiricema.mg.leg.br/imagens/2000pxTelegram_font_awesome.svg.png/image" alt="Telegram" width="40px" height="40px" >
+      <a href="#" class="link-light">Atendimento via Telegram</a>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+      <img src="https://image.flaticon.com/icons/png/512/108/108370.png" width="40px" height="40px" alt="Message" >
+      <a href="#" class="link-light">atendimento@mgspgroup.com.br</a>
+    </ul>
+  </div>
+</div>
+<hr>
+<div class="box">
+  <h3>REDES SOCIAIS</h3>
+  <ul class="list-group list-group-horizontal">
+    <img src="https://cdn-icons-png.flaticon.com/512/2175/2175193.png" width="40px" height="40px" alt="Facebook" >
+    <a href="#" class="link-light">Facebook</a>
+  </ul>
+  <ul class="list-group list-group-horizontal">
+    <img src="https://www.gov.br/sudam/pt-br/canais_atendimento/fale-conosco-1/fale-conosco/twitter.png" width="40px" height="40px" alt="Twitter" >
+    <a href="#" class="link-light">Twitter</a>
+  </ul>
+  <ul class="list-group list-group-horizontal">
+    <img src="https://margauxeyewear.com/wp-content/uploads/2019/11/instagram-png-instagram-icon-1600.png" width="40px" height="40px" alt="Instagram">
+    <a href="#" class="link-light">Instagram</a>
+  </ul>
+
+
+</div>
+</div>
+
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/acao.js"></script>
+</body>
+</html>
